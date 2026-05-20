@@ -1,0 +1,5 @@
+<br />
+<b>Warning</b>:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in <b>/home/impactitftp/public_html/tatvamarketing.com/tatva/software/view_order.php</b> on line <b>79</b><br />
+<br />
+<b>Warning</b>:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in <b>/home/impactitftp/public_html/tatvamarketing.com/tatva/software/view_order.php</b> on line <b>85</b><br />
+Unable to stream pdf: headers already sent

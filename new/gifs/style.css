@@ -1,0 +1,76 @@
+body{margin:0px; padding:0px;}
+
+.outer{width:900px; border:1px solid #3e0000;}
+
+.main-div{width:900px; background-color:#FFFFFF; clear:both;}
+
+.top-link{font-family:sans-serif; font-size:10px; color:#000000; text-align:right; text-decoration:none; padding-top:15px; padding-right:12px; background:url(top-arrow.jpg) top right no-repeat;}
+.top-link a{color:#000000; text-decoration:none;}
+.top-link a:hover{color:#000000; text-decoration:underline;}
+
+.top-nav{font-family:verdana; font-size:11px; color:#FFFFFF; text-decoration:none; text-align:center; padding-top:6px; padding-bottom:6px; background:url(nav-bg.jpg) top left repeat-x;}
+.top-nav a{color:#FFFFFF; text-decoration:none;}
+.top-nav a:hover{color:#FFFFFF; text-decoration:underline;}
+
+.slide-l{width:251px; float:left;}
+.slide-r{width:649px; float:right;}
+
+.left{width:251px; text-align:center; background-color:#fff3f3;}
+.left h1{font-family:verdana; font-size:13px; color:#FFFFFF; text-transform:uppercase; text-align:left; background:url(nav-bg.jpg) left top repeat-x; padding:0px; padding-left:9px; padding-top:5px; padding-bottom:5px; margin:0px;}
+
+.right{width:638px; float:right; text-align:left;}
+
+.left-link{font-family:verdana; font-size:11px; color:#333333; text-decoration:none; text-align:left; line-height:23px; padding-left:25px; background:url(left-arrow.jpg) left top repeat-y;}
+.left-link a{color:#333333; text-decoration:none;}
+.left-link a:hover{color:#333333; text-decoration:underline;}
+
+.txt{font-family:verdana; font-size:11px; color:#333333; text-decoration:none; text-align:justify; line-height:18px; padding-top:10px; padding-right:0px;}
+.txt a{color:#333333; text-decoration:none;}
+.txt a:hover{color:#333333; text-decoration:underline;}
+
+.txt h2{font-family:verdana; font-size:10px; color:#8b0404; text-decoration:none; text-align:center; padding-top:1px; padding-bottom:10px; margin:0px;}
+.txt h2 a{color:#8b0404; text-decoration:none;}
+.txt h2 a:hover{color:#8b0404; text-decoration:underline;}
+
+.txt1{font-family:verdana; font-size:11px; color:#333333; text-decoration:none; text-align:justify; line-height:18px; padding-top:0px; padding-right:5px;}
+.txt1 a{color:#333333; text-decoration:none;}
+.txt1 a:hover{color:#333333; text-decoration:underline;}
+.txt1 h1{font-family:verdana; font-size:13px; color:#FFFFFF; text-transform:uppercase; text-align:left; background:url(nav-bg.jpg) left top repeat-x; padding:0px; padding-left:9px; padding-top:5px; padding-bottom:5px; margin:0px;}
+.txt1 table{border-top:1px solid #999999; border-right:1px solid #999999;}
+.txt1 table td{border-left:1px solid #999999; border-bottom:1px solid #999999; padding-left:5px;}
+
+.txt2{font-family:verdana; font-size:11px; color:#333333; text-decoration:none; text-align:justify; line-height:18px; padding-top:0px; padding-right:5px;}
+.txt2 a{color:#ff0000; text-decoration:none;}
+.txt2 a:hover{color:#ff0000; text-decoration:underline;}
+.txt2 h1{font-family:verdana; font-size:13px; color:#FFFFFF; text-transform:uppercase; text-align:left; background:url(nav-bg.jpg) left top repeat-x; padding:0px; padding-left:9px; padding-top:5px; padding-bottom:5px; margin:0px;}
+.txt2 strong{padding-top:50px; color:#000;}
+.txt2 table{border:1px solid #999999;}
+
+.txt3{font-family:verdana; font-size:11px; color:#333333; text-decoration:none; text-align:justify; line-height:18px; padding-top:0px; padding-right:5px;}
+.txt3 a{color:#333333; text-decoration:none;}
+.txt3 a:hover{color:#333333; text-decoration:underline;}
+.txt3 h1{font-family:verdana; font-size:13px; color:#FFFFFF; text-transform:uppercase; text-align:left; background:url(nav-bg.jpg) left top repeat-x; padding:0px; padding-left:9px; padding-top:5px; padding-bottom:5px; margin:0px;}
+
+.pro-range{background:url(head-bg.jpg) left top repeat-x; padding:0px; margin:0px;}
+.mid{background:url(mid.jpg) left top repeat-y;}
+
+.more{font-family:verdana; font-size:11px; color:#8b0404; text-decoration:none; text-align:RIGHT; font-weight:bold;}
+.more a{color:#8b0404; text-decoration:none;}
+.more a:hover{color:#8b0404; text-decoration:underline;}
+
+.more1{font-family:verdana; font-size:10px; color:#ffffff; text-decoration:none; text-align:RIGHT; background:#000000; padding-right:5px; margin-bottom:5px;}
+.more1 a{color:#ffffff; text-decoration:none;}
+.more1 a:hover{color:#ffffff; text-decoration:underline;}
+
+
+/* footer */
+
+#footer-bg{background:#3e0000; height:60px;}
+
+.footer-link{font-family:verdana; font-size:11px; color:#e4b7b7; text-decoration:none; text-align:right; padding-right:10px; padding-top:15px; float:right; width:400px;}
+.footer-link a{color:#e4b7b7; text-decoration:none;}
+.footer-link a:hover{color:#e4b7b7; text-decoration:underline;}
+
+.site-link{font-family:verdana; font-size:10px; color:#e4b7b7; text-decoration:none; text-align:left; padding-left:10px; padding-top:15px; float:left; width:450px;}
+.site-link a{color:#e4b7b7; text-decoration:underline;}
+.site-link a:hover{color:#e4b7b7; text-decoration:none;}

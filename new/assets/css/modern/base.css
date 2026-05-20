@@ -1,0 +1,55 @@
+:root {
+    color-scheme: light;
+    --color-brand: #510400;
+    --color-brand-dark: #3f0300;
+    --color-brand-soft: #f8e9e7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    letter-spacing: 0;
+    background: #ffffff;
+}
+
+main,
+section.bg-slate-50,
+.product-lines-section,
+.featured-products-section,
+.service-section,
+.partner-section {
+    background: #ffffff;
+}
+
+/* ===== HAMBURGER ===== */
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    width: 18px;
+    height: 2px;
+    border-radius: 999px;
+    background: #101828;
+    content: "";
+}
+
+.hamburger {
+    position: relative;
+}
+
+.hamburger::before,
+.hamburger::after {
+    position: absolute;
+    left: 0;
+}
+
+.hamburger::before {
+    top: -6px;
+}
+
+.hamburger::after {
+    top: 6px;
+}
+

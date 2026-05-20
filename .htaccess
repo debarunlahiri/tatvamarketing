@@ -1,0 +1,8 @@
+DirectoryIndex index.php index.html
+
+RewriteEngine On
+RewriteRule ^aboutus\.html$ about-us.php [R=301,L]
+RewriteRule ^products\.html$ products.php [R=301,L]
+RewriteRule ^services\.html$ services.php [R=301,L]
+RewriteRule ^clients\.html$ clients.php [R=301,L]
+RewriteRule ^contactus\.html$ contact-us.php [R=301,L]
