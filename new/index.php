@@ -94,7 +94,7 @@ function home_client_image(string $name): ?string
                     <p class="hero-cta mt-6 text-lg leading-8 text-slate-200">Ultrasonic flaw detectors, MPI systems, and dye penetrant testing solutions backed by 28+ years of expertise.</p>
                     <div class="hero-cta mt-8 flex flex-col gap-3 sm:flex-row">
                         <a href="products.php" class="inline-flex justify-center rounded-full bg-brand px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-dark/30 transition hover:bg-brand-dark hover:shadow-brand-dark/40">Explore Products</a>
-                        <a href="contact-us.php" class="inline-flex justify-center rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur transition hover:bg-white/20">Request Quote</a>
+                        <a href="contact-us.php" class="inline-flex justify-center rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur transition hover:bg-white/20">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@ function home_client_image(string $name): ?string
         <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div class="max-w-3xl">
                 <?= section_eyebrow('Product Lines') ?>
-                <h2 class="mt-4 text-3xl font-extrabold leading-tight text-ink sm:text-4xl lg:text-5xl">NDT equipment for field inspection, workshop testing and surface crack detection.</h2>
+                <h2 class="mt-4 text-3xl font-extrabold leading-tight text-ink sm:text-4xl lg:text-5xl">NDT equipment for inspection, workshop testing and surface crack detection.</h2>
             </div>
             <p class="max-w-md text-base leading-7 text-slate-600">Explore practical instruments, MPI systems and penetrant testing materials selected for industrial inspection workflows.</p>
         </div>
@@ -436,7 +436,7 @@ function home_client_image(string $name): ?string
         <p class="mx-auto mt-5 max-w-2xl text-lg leading-8 text-brand-light">Talk to our team about equipment selection, service contracts, or training programs tailored to your inspection needs.</p>
         <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="contact-us.php" class="inline-flex items-center justify-center rounded-full bg-white px-8 py-4 text-base font-bold text-brand shadow-lg transition hover:bg-slate-100">Request a Quote</a>
-            <a href="tel:+919560096820" class="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 px-8 py-4 text-base font-bold text-white backdrop-blur transition hover:bg-white/20">Call +91 9560096820</a>
+            <a href="tel:+911204116638" class="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 px-8 py-4 text-base font-bold text-white backdrop-blur transition hover:bg-white/20">Call 0120 411 6638</a>
         </div>
     </div>
 </section>

@@ -28,27 +28,40 @@ page_header('Contact Us', 'Contact Tatva Marketing for NDT equipment supply, ser
                 </div>
             </div>
         </div>
-        <form class="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm sm:p-8" action="mailto:tatva@tatvamarketing.com" method="post" enctype="text/plain">
-            <div class="grid gap-5">
-                <label class="grid gap-2">
-                    <span class="text-sm font-semibold text-slate-700">Name</span>
-                    <input class="field" name="name" type="text" required>
-                </label>
-                <label class="grid gap-2">
-                    <span class="text-sm font-semibold text-slate-700">Email</span>
-                    <input class="field" name="email" type="email" required>
-                </label>
-                <label class="grid gap-2">
-                    <span class="text-sm font-semibold text-slate-700">Phone</span>
-                    <input class="field" name="phone" type="tel">
-                </label>
-                <label class="grid gap-2">
-                    <span class="text-sm font-semibold text-slate-700">Requirement</span>
-                    <textarea class="field min-h-36" name="message" required></textarea>
-                </label>
-                <button class="rounded-full bg-brand px-6 py-3 text-sm font-bold text-white transition hover:bg-brand-dark" type="submit">Send enquiry</button>
+        <div class="grid gap-6">
+            <form class="rounded-3xl border border-slate-200 bg-slate-50 p-6 shadow-sm sm:p-8" action="mailto:tatva@tatvamarketing.com" method="post" enctype="text/plain">
+                <div class="grid gap-5">
+                    <label class="grid gap-2">
+                        <span class="text-sm font-semibold text-slate-700">Name</span>
+                        <input class="field" name="name" type="text" required>
+                    </label>
+                    <label class="grid gap-2">
+                        <span class="text-sm font-semibold text-slate-700">Email</span>
+                        <input class="field" name="email" type="email" required>
+                    </label>
+                    <label class="grid gap-2">
+                        <span class="text-sm font-semibold text-slate-700">Phone</span>
+                        <input class="field" name="phone" type="tel">
+                    </label>
+                    <label class="grid gap-2">
+                        <span class="text-sm font-semibold text-slate-700">Requirement</span>
+                        <textarea class="field min-h-36" name="message" required></textarea>
+                    </label>
+                    <button class="rounded-full bg-brand px-6 py-3 text-sm font-bold text-white transition hover:bg-brand-dark" type="submit">Send enquiry</button>
+                </div>
+            </form>
+            <div class="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-sm">
+                <iframe
+                    class="h-72 w-full"
+                    src="<?= e($company['map_embed_url']) ?>"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="<?= e($company['name']) ?> location map"></iframe>
+                <div class="border-t border-slate-200 p-4">
+                    <a href="<?= e($company['map_url']) ?>" target="_blank" rel="noopener" class="text-sm font-bold text-brand hover:text-brand-dark">Open in Google Maps</a>
+                </div>
             </div>
-        </form>
+        </div>
     </div>
 </section>
 <?php page_footer(); ?>

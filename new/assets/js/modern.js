@@ -1,5 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+/* ===== HERO ENTRANCE ANIMATIONS ===== */
+(function initHeroAnimations() {
+    var heroEls = document.querySelectorAll('.hero-animate.from-below');
+    heroEls.forEach(function(el, i) {
+        setTimeout(function() {
+            el.classList.remove('from-below');
+        }, 200 + i * 160);
+    });
+})();
+
 const menuButton = document.getElementById('menuButton');
 const mobileMenu = document.getElementById('mobileMenu');
 

@@ -5,6 +5,92 @@
     margin-left: auto;
 }
 
+.clients-simple {
+    background:
+        linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+    padding: 4.5rem 0 5rem;
+}
+
+.clients-simple__heading {
+    text-align: center;
+}
+
+.clients-simple__heading h1 {
+    margin: 0;
+    color: #101828;
+    font-size: clamp(2.25rem, 5vw, 4rem);
+    font-weight: 800;
+    line-height: 1.08;
+}
+
+.clients-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr));
+    gap: 1.25rem;
+    margin-top: 2.75rem;
+}
+
+.client-logo-card {
+    display: grid;
+    min-height: 12.5rem;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.05);
+    transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.client-logo-card:hover {
+    border-color: rgba(81, 4, 0, 0.24);
+    box-shadow: 0 16px 34px rgba(15, 23, 42, 0.08);
+    transform: translateY(-2px);
+}
+
+.client-logo-card__media {
+    display: flex;
+    min-height: 8rem;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e2e8f0;
+    background: #ffffff;
+}
+
+.client-logo-card__media img {
+    width: 100%;
+    height: 8rem;
+    padding: 1.05rem;
+    object-fit: contain;
+}
+
+.client-logo-card__fallback {
+    display: inline-flex;
+    width: 4rem;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #f8e9e7;
+    color: var(--color-brand);
+    font-size: 1rem;
+    font-weight: 800;
+    box-shadow: inset 0 0 0 1px rgba(81, 4, 0, 0.14);
+}
+
+.client-logo-card h2 {
+    display: flex;
+    min-height: 4.5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0.85rem 0.9rem;
+    color: #1e293b;
+    font-size: 0.95rem;
+    font-weight: 800;
+    line-height: 1.35;
+    text-align: center;
+}
+
 .clients-hero {
     position: relative;
     overflow: hidden;
@@ -286,17 +372,7 @@
     padding: 0.95rem 1rem;
 }
 
-.featured-client__body span {
-    display: block;
-    color: var(--color-brand);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-}
-
 .featured-client h3 {
-    margin-top: 0.45rem;
     color: #101828;
     font-size: 1.15rem;
     font-weight: 800;
@@ -419,14 +495,6 @@
     color: #1e293b;
     font-size: 0.95rem;
     font-weight: 800;
-    line-height: 1.35;
-}
-
-.client-card__body p {
-    margin-top: 0.45rem;
-    color: #64748b;
-    font-size: 0.78rem;
-    font-weight: 700;
     line-height: 1.35;
 }
 

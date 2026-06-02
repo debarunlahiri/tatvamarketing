@@ -2,15 +2,17 @@
 $company = [
     'name' => 'Tatva Marketing & Services Pvt. Ltd.',
     'short' => 'Tatva Marketing',
-    'phone' => '+91 9560096820 / +91 8920610856',
+    'phone' => '0120 411 6638',
+    'phone_href' => '+911204116638',
     'phones' => [
-        ['label' => '+91 9560096820', 'href' => '+919560096820'],
-        ['label' => '+91 8920610856', 'href' => '+918920610856'],
+        ['label' => '0120 411 6638', 'href' => '+911204116638'],
     ],
     'email' => 'tatva@tatvamarketing.com',
     'alt_email' => 'sachin@tatvamarketing.com',
-    'address' => '1st Floor, SBC Plaza, Plot No. 6, Near HDFC Bank, Sector 15, Vasundhara, Ghaziabad-201012, Uttar Pradesh, India',
-    'hours' => '09:00 AM to 05:30 PM',
+    'address' => 'Ist Floor, SBC Plaza, Plot 6, Sector 15, Vasundhara, Ghaziabad, Uttar Pradesh 201012',
+    'map_url' => 'https://maps.google.com/?cid=1841605036182984860',
+    'map_embed_url' => 'https://maps.google.com/maps?cid=1841605036182984860&output=embed',
+    'hours' => '09:00 AM to 05:30 PM. Weekly off Sunday & all Gazetted Holidays',
 ];
 
 $nav = [
@@ -19,7 +21,7 @@ $nav = [
     ['label' => 'Products', 'href' => 'products.php'],
     ['label' => 'Services', 'href' => 'services.php'],
     ['label' => 'Clients', 'href' => 'clients.php'],
-    ['label' => 'Contact', 'href' => 'contact-us.php'],
+    ['label' => 'Work With Us', 'href' => 'work-with-us.php'],
 ];
 
 $productMenu = [
@@ -36,7 +38,7 @@ $productMenu = [
                     ['label' => 'Arjun-10', 'href' => 'arjun-10.php'],
                     ['label' => 'Arjun-20', 'href' => 'arjun-20.php'],
                     ['label' => 'Arjun-30', 'href' => 'arjun-30.php'],
-                    ['label' => 'da Vinci Delta', 'href' => 'da-vinci.php'],
+                    // ['label' => 'da Vinci Delta', 'href' => 'da-vinci.php'],
                 ],
             ],
             ['label' => 'Ultrasonic Rail Testers', 'href' => 'ultra-rail-testers.php'],

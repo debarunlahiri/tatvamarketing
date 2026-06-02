@@ -13,17 +13,17 @@ $capabilities = [
     [
         'title' => 'Equipment Selection',
         'copy' => 'Practical product guidance across ultrasonic testing, magnetic particle testing and dye penetrant testing applications.',
-        'image' => 'gifs/ultrasonic-equipment.jpg',
+        'image' => 'gifs/EINSTEIN-II-DGS.jpg',
     ],
     [
         'title' => 'Service & Calibration',
         'copy' => 'Responsive servicing, AMC, recalibration and technical support for inspection instruments and accessories.',
-        'image' => 'gifs/flaw-detector.jpg',
+        'image' => 'gifs/arjun_30.png',
     ],
     [
         'title' => 'Training Support',
         'copy' => 'Awareness programs, operator training and NDT method support for teams working in demanding industrial environments.',
-        'image' => 'gifs/main-instrument2.jpg',
+        'image' => 'gifs/edisson1.png',
     ],
 ];
 

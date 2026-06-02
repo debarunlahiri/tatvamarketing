@@ -37,7 +37,7 @@ $coverage = [
         <div class="services-hero__copy reveal">
             <span class="services-kicker">Service · AMC · Calibration · Training</span>
             <h1>Support that keeps NDT instruments working.</h1>
-            <p>Tatva provides servicing, AMC, recalibration, seminars, awareness programs and method-level training support for UT, MT and PT inspection teams.</p>
+            <p>Tatva provides servicing, AMC, recalibration, seminars, awareness programs and method-level support for UT, MT and PT.</p>
             <div class="services-hero__actions">
                 <a href="contact-us.php" class="services-primary-link">Request Service</a>
                 <a href="#service-catalog" class="services-secondary-link">View Coverage</a>
@@ -47,7 +47,7 @@ $coverage = [
         <div class="services-hero__panel reveal reveal-delay-2">
             <span>Service desk</span>
             <strong>Share the model, issue and calibration requirement.</strong>
-            <p>Tatva will respond with the practical next step for repair, AMC, recalibration or training support.</p>
+            <p>Tatva will respond with the practical next step for repair, AMC or recalibration.</p>
         </div>
     </div>
 </section>
@@ -60,15 +60,15 @@ $coverage = [
         </article>
         <article class="reveal reveal-delay-1">
             <strong>MT</strong>
-            <span>MPI systems, yokes, gauss meters and UV support</span>
+            <span>MPI systems, Bench Type, Prod Type, Yokes, Accessories & Consumables</span>
         </article>
         <article class="reveal reveal-delay-2">
             <strong>PT</strong>
-            <span>Dye penetrant method awareness and consumable guidance</span>
+            <span>Dye Penetrant Chemicals, (Fluorescent, Non Fluorescent) & accessories conforming to international and national standards</span>
         </article>
         <article class="reveal reveal-delay-3">
             <strong>AMC</strong>
-            <span>Preventive support for supplied equipment</span>
+            <span>Preventive Maintenance Support</span>
         </article>
     </div>
 </section>

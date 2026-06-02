@@ -32,12 +32,13 @@ function page_header(string $title, string $description = ''): void
     <link rel="stylesheet" href="assets/css/tailwind/utilities.css?v=20260519-css-split">
     <link rel="stylesheet" href="assets/css/tailwind/responsive.css?v=20260519-css-split">
     <link rel="stylesheet" href="assets/css/modern/base.css?v=20260519-css-split">
-    <link rel="stylesheet" href="assets/css/modern/components.css?v=20260519-product-image-fix">
+    <link rel="stylesheet" href="assets/css/modern/components.css?v=20260601-inline-product-submenu">
     <link rel="stylesheet" href="assets/css/modern/carousel.css?v=20260519-css-split">
     <link rel="stylesheet" href="assets/css/modern/home.css?v=20260519-partner-logo-fix">
     <link rel="stylesheet" href="assets/css/modern/about.css?v=20260519-css-split">
     <link rel="stylesheet" href="assets/css/modern/services.css?v=20260519-services-redesign">
-    <link rel="stylesheet" href="assets/css/modern/clients.css?v=20260519-css-split">
+    <link rel="stylesheet" href="assets/css/modern/clients.css?v=20260601-simple-clients">
+    <link rel="stylesheet" href="assets/css/modern/work-with-us.css?v=20260601-layout-fix">
 </head>
 <body class="bg-white text-ink antialiased">
     <header class="sticky top-0 z-40 border-b border-slate-200 bg-white/95 backdrop-blur">
@@ -93,7 +94,7 @@ function page_header(string $title, string $description = ''): void
                 <?php endforeach; ?>
             </nav>
             <div class="hidden items-center lg:flex">
-                <a href="contact-us.php" class="rounded-full bg-brand px-5 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-brand-dark">Request quote</a>
+                <a href="contact-us.php" class="rounded-full bg-brand px-5 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-brand-dark">Contact Us</a>
             </div>
             <button id="menuButton" class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-300 text-slate-800 lg:hidden" aria-label="Open menu" aria-expanded="false">
                 <span class="hamburger"></span>
