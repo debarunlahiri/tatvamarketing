@@ -17,7 +17,7 @@ page_header('Ultrasonic Rail Testers', 'Ultrasonic Vehicular, Double Rail and Si
         <div class="mt-12 space-y-16">
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/double-rail-tester2.jpg" alt="Ultrasonic Vehicular Testing" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/railscan-200w.png" alt="Ultrasonic Vehicular Testing" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Ultrasonic Vehicular Testing</h3>
@@ -26,7 +26,7 @@ page_header('Ultrasonic Rail Testers', 'Ultrasonic Vehicular, Double Rail and Si
             </div>
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/double-rail-tester.jpg" alt="Ultrasonic Double Rail Testers" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/railscan-200w.png" alt="Ultrasonic Double Rail Testers" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Ultrasonic Double Rail Testers</h3>
@@ -45,7 +45,7 @@ page_header('Ultrasonic Rail Testers', 'Ultrasonic Vehicular, Double Rail and Si
             </div>
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/single-rail-tester2.jpg" alt="Ultrasonic Single Rail Testers" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/railscan-100.jpg" alt="Ultrasonic Single Rail Testers" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Ultrasonic Single Rail Testers</h3>

@@ -28,7 +28,7 @@ $capabilities = [
 ];
 
 $timeline = [
-    ['year' => '1996', 'title' => 'Foundation', 'copy' => 'Tatva began as a focused supplier for practical industrial NDT equipment needs.'],
+    ['year' => '1996', 'title' => 'Foundation', 'copy' => 'Tatva began as a focused supplier for industrial NDT equipment needs.'],
     ['year' => 'Today', 'title' => 'National Support', 'copy' => 'The team supports inspection teams across product selection, delivery, service, calibration and training.'],
     ['year' => 'Next', 'title' => 'Reliable Growth', 'copy' => 'Continued focus on dependable instruments, responsive service and long-term customer relationships.'],
 ];
@@ -78,7 +78,6 @@ $timeline = [
     <div class="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[0.82fr_1.18fr] lg:px-8">
         <div class="about-section-heading reveal">
             <?= section_eyebrow('Company overview') ?>
-            <h2>Built around field realities, not catalog pages.</h2>
         </div>
         <div class="about-story reveal reveal-delay-1">
             <p>Tatva works with reputed principals and supports customers through product selection, logistics, servicing, calibration and training. The focus is straightforward: help inspection teams choose the right equipment, keep it working and get support when it matters.</p>
@@ -91,7 +90,6 @@ $timeline = [
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="about-section-heading about-section-heading--wide reveal">
             <?= section_eyebrow('Capabilities') ?>
-            <h2>Support across the full NDT equipment lifecycle.</h2>
         </div>
         <div class="about-capability-grid">
             <?php foreach ($capabilities as $index => $item): ?>
@@ -114,8 +112,8 @@ $timeline = [
         <div class="about-team-card reveal">
             <div>
                 <?= section_eyebrow('People') ?>
-                <h2>Engineers, technicians and commercial support in one loop.</h2>
-                <p>Tatva combines technical and customer-facing teams so product enquiries, service calls and delivery needs move through one coordinated workflow.</p>
+                <h2>Engineers, technicians and commercial support in one platform.</h2>
+            <p>At Tatva, our technical and customer support teams work together to handle product enquiries, service requests and delivery requirements through a well-coordinated process.</p>
             </div>
             <div class="about-team-tags">
                 <span>Engineers</span>
@@ -143,7 +141,7 @@ $timeline = [
     <div class="about-cta__inner reveal">
         <div>
             <p>Need help choosing or servicing NDT equipment?</p>
-            <h2>Talk to Tatva for practical product and service support.</h2>
+            <h2>Talk to Tatva for product and service support.</h2>
         </div>
         <a href="contact-us.php">Request a Quote</a>
     </div>

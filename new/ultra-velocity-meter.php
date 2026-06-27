@@ -17,7 +17,7 @@ page_header('Ultrasonic Velocity Meters', 'EdVel series Ultrasonic Velocity Mete
         <div class="mt-12 space-y-16">
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/Ultrasonic-Thickness.jpg" alt="Edvel-1" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/edvel.png" alt="Edvel-1" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Edvel-1</h3>
@@ -36,7 +36,7 @@ page_header('Ultrasonic Velocity Meters', 'EdVel series Ultrasonic Velocity Mete
             </div>
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/Ultrasonic-Thickness.jpg" alt="Edvel-1M" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/edvel.png" alt="Edvel-1M" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Edvel-1M</h3>

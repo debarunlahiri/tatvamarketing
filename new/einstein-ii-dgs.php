@@ -16,7 +16,7 @@ page_header('Einstein-II DGS', 'Digital Ultrasonic Flaw Detector Einstein II DGS
         </div>
         <div class="mt-12 flex flex-wrap items-start gap-10 lg:flex-nowrap">
             <div class="w-full lg:w-5/12">
-                <img src="gifs/ultrasonic-flaw-detector2.jpg" alt="Einstein-II DGS" class="product-detail-img w-full rounded-xl shadow-md">
+                <img src="assets/images/products/modsonic/einstein-ii-dgs.jpg" alt="Einstein-II DGS" class="product-detail-img w-full rounded-xl shadow-md">
             </div>
             <div class="w-full lg:w-7/12">
                 <h3 class="text-2xl font-bold text-ink">Einstein II DGS</h3>

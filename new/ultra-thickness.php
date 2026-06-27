@@ -17,7 +17,7 @@ page_header('Ultrasonic Thickness Gauges', 'EDISON series Ultrasonic Thickness G
         <div class="mt-12 space-y-16">
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/ultrasonic-thickness-guage.jpg" alt="Edison-1" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/edison-1.png" alt="Edison-1" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Edison-1</h3>
@@ -33,7 +33,7 @@ page_header('Ultrasonic Thickness Gauges', 'EDISON series Ultrasonic Thickness G
             </div>
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/Ultrasonic-Thickness.jpg" alt="Edison-1M" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/edison-1m.png" alt="Edison-1M" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Edison-1M</h3>
@@ -51,7 +51,7 @@ page_header('Ultrasonic Thickness Gauges', 'EDISON series Ultrasonic Thickness G
             </div>
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/ultrasonic-thickness-guage.jpg" alt="Edison-1P" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/edison-1p.jpg" alt="Edison-1P" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Edison-1P</h3>
@@ -68,7 +68,7 @@ page_header('Ultrasonic Thickness Gauges', 'EDISON series Ultrasonic Thickness G
             </div>
             <div class="flex flex-wrap items-start gap-10 lg:flex-nowrap">
                 <div class="w-full lg:w-5/12">
-                    <img src="gifs/Ultrasonic-Thickness.jpg" alt="Edison-1 TC" class="product-detail-img w-full rounded-xl shadow-md">
+                    <img src="assets/images/products/modsonic/edison-1-tc.png" alt="Edison-1 TC" class="product-detail-img w-full rounded-xl shadow-md">
                 </div>
                 <div class="w-full lg:w-7/12">
                     <h3 class="text-2xl font-bold text-ink">Edison-1 TC</h3>

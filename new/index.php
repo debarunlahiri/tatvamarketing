@@ -28,53 +28,6 @@ function home_client_initials(string $name): string
     return implode('', $letters) ?: strtoupper(substr($name, 0, 1));
 }
 
-function home_client_logo_key(string $value): string
-{
-    $value = strtolower(str_replace('&', ' and ', $value));
-    return preg_replace('/[^a-z0-9]+/', '', $value) ?: '';
-}
-
-function home_client_logo_map(): array
-{
-    static $logos = null;
-
-    if ($logos !== null) {
-        return $logos;
-    }
-
-    $logos = [];
-    $logoDir = __DIR__ . '/assets/images/clients';
-
-    foreach (glob($logoDir . '/*.{avif,jpeg,jpg,png,svg,webp}', GLOB_BRACE) ?: [] as $file) {
-        $filename = pathinfo($file, PATHINFO_FILENAME);
-        $filename = preg_replace('/\.(svg|png|jpg|jpeg|webp|avif)$/i', '', (string) $filename);
-        $logos[home_client_logo_key($filename)] = 'assets/images/clients/' . basename($file);
-    }
-
-    return $logos;
-}
-
-function home_client_image(string $name): ?string
-{
-    $logos = home_client_logo_map();
-    $aliases = [
-        'larsenandtoubro' => 'larsenandtourbo',
-    ];
-    $key = home_client_logo_key($name);
-    $candidateKeys = [$key];
-
-    if (isset($aliases[$key])) {
-        $candidateKeys[] = $aliases[$key];
-    }
-
-    foreach ($candidateKeys as $candidateKey) {
-        if (isset($logos[$candidateKey])) {
-            return $logos[$candidateKey];
-        }
-    }
-
-    return null;
-}
 ?>
 
 <!-- ===== HERO CAROUSEL ===== -->
@@ -280,8 +233,8 @@ function home_client_image(string $name): ?string
         <?php
         $featured = [
             ['name' => 'Einstein-II TFT', 'desc' => 'Digital ultrasonic flaw detector with colour display & PC connectivity.', 'img' => 'gifs/flaw-detector.jpg', 'link' => 'einstein-ii.php', 'tag' => 'Ultrasonic flaw detector'],
-            ['name' => 'Arjun-20', 'desc' => 'Palmtop flaw detector with 10m test range & DGS/AVG software.', 'img' => 'gifs/main-instrument2.jpg', 'link' => 'arjun-20.php', 'tag' => 'Portable UT'],
-            ['name' => 'Edison-1M', 'desc' => 'Ultrasonic thickness gauge with 2000-reading memory & PC link.', 'img' => 'gifs/ultrasonic-thickness-guage.jpg', 'link' => 'ultra-thickness.php', 'tag' => 'Thickness gauge'],
+            ['name' => 'Arjun-20', 'desc' => 'Palmtop flaw detector with 10m test range & DGS/AVG software.', 'img' => 'assets/images/products/modsonic/arjun-20.jpg', 'link' => 'arjun-20.php', 'tag' => 'Portable UT'],
+            ['name' => 'Edison-1M', 'desc' => 'Ultrasonic thickness gauge with 2000-reading memory & PC link.', 'img' => 'assets/images/products/modsonic/edison-1m.png', 'link' => 'ultra-thickness.php', 'tag' => 'Thickness gauge'],
             ['name' => 'Y7 Yoke', 'desc' => 'Lightweight AC/DC electromagnetic yoke for MPI inspection.', 'img' => 'gifs/electromagnetic-Particls-Equipment.jpg', 'link' => 'yoke-mpi.php', 'tag' => 'MPI yoke'],
         ];
         $lead = $featured[0];
@@ -410,18 +363,21 @@ function home_client_image(string $name): ?string
 
         <div class="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             <?php foreach (array_slice($clients, 0, 12) as $i => $client): ?>
-                <?php $logo = home_client_image($client); ?>
+                <?php
+                $name = $client['name'];
+                $logo = $client['image'];
+                ?>
                 <article class="partner-card partner-logo-card reveal <?= $i % 5 > 0 ? 'reveal-delay-' . ($i % 5) : '' ?> overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition">
                     <div class="partner-logo-card__media">
                         <?php if ($logo): ?>
-                            <img src="<?= e($logo) ?>" alt="<?= e($client) ?>">
+                            <img src="<?= e($logo) ?>" alt="<?= e($name) ?>">
                         <?php else: ?>
-                            <span><?= e(home_client_initials($client)) ?></span>
+                            <span><?= e(home_client_initials($name)) ?></span>
                         <?php endif; ?>
                     </div>
                     <div class="partner-logo-card__body">
-                        <p class="text-xs font-bold uppercase tracking-wide text-brand">Selected customer</p>
-                        <h3><?= e($client) ?></h3>
+                        <p class="text-xs font-bold uppercase tracking-wide text-brand">Trusted client</p>
+                        <h3><?= e($name) ?></h3>
                     </div>
                 </article>
             <?php endforeach; ?>

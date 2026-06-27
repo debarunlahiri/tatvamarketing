@@ -16,7 +16,7 @@ page_header('Arjun-10', 'Palmtop, Ultra-light Digital Ultrasonic Flaw Detector A
         </div>
         <div class="mt-12 flex flex-wrap items-start gap-10 lg:flex-nowrap">
             <div class="w-full lg:w-5/12">
-                <img src="gifs/main-instrument2.jpg" alt="Arjun-10" class="product-detail-img w-full rounded-xl shadow-md">
+                <img src="assets/images/products/modsonic/arjun-10.jpg" alt="Arjun-10" class="product-detail-img w-full rounded-xl shadow-md">
             </div>
             <div class="w-full lg:w-7/12">
                 <h3 class="text-2xl font-bold text-ink">Arjun-10</h3>

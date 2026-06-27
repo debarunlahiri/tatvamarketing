@@ -8,12 +8,11 @@ $serviceCards = [
     ['icon' => 'fa-magnet', 'label' => 'MPI systems', 'title' => 'MPI equipment service for bench type, prod type and AC/DC yoke systems', 'copy' => 'Service support for magnetic crack detectors, yokes, power sources and shop-floor MPI systems.'],
     ['icon' => 'fa-lightbulb-o', 'label' => 'Accessories', 'title' => 'Gauss meter, residual magnetic field indicator and UV black light support', 'copy' => 'Accessory checks and support for the instruments that keep MT and PT inspection dependable.'],
     ['icon' => 'fa-bullhorn', 'label' => 'Awareness', 'title' => 'Seminars and awareness programs in UT, MT and PT methods', 'copy' => 'Practical method awareness sessions for teams choosing or operating NDT equipment.'],
-    ['icon' => 'fa-graduation-cap', 'label' => 'Training', 'title' => 'Training, certification and consultancy for Level-I/II UT, MT and PT', 'copy' => 'Method-level training and consultancy support for inspection teams building capability.'],
 ];
 
 $processSteps = [
     ['step' => '01', 'title' => 'Share the issue', 'copy' => 'Send the model, serial number, current issue and required calibration or service scope.'],
-    ['step' => '02', 'title' => 'Technical review', 'copy' => 'Tatva reviews the instrument category, likely cause and practical next step.'],
+    ['step' => '02', 'title' => 'Technical review', 'copy' => 'Tatva reviews the instrument category, likely cause next step.'],
     ['step' => '03', 'title' => 'Service action', 'copy' => 'The team coordinates service, AMC, recalibration, training or method support as required.'],
 ];
 
@@ -25,19 +24,18 @@ $coverage = [
     'AC/DC yoke systems',
     'Gauss meters and UV black lights',
     'UT, MT and PT awareness programs',
-    'Level-I/II training support',
 ];
 ?>
 
 <section class="services-hero">
     <div class="services-hero__media" aria-hidden="true">
-        <img src="gifs/flaw-detector.jpg" alt="">
+        <img src="assets/images/products/modsonic/arjun-30.png" alt="">
     </div>
     <div class="services-hero__inner">
         <div class="services-hero__copy reveal">
             <span class="services-kicker">Service · AMC · Calibration · Training</span>
             <h1>Support that keeps NDT instruments working.</h1>
-            <p>Tatva provides servicing, AMC, recalibration, seminars, awareness programs and method-level support for UT, MT and PT.</p>
+            <p>Tatva provides servicing, AMC, recalibration, seminars, awareness programs and method support for UT, MT and PT.</p>
             <div class="services-hero__actions">
                 <a href="contact-us.php" class="services-primary-link">Request Service</a>
                 <a href="#service-catalog" class="services-secondary-link">View Coverage</a>
