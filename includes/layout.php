@@ -182,7 +182,7 @@ function page_footer(): void
         <section class="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-[1.4fr_1fr_1fr] lg:px-8">
             <div>
                 <img src="assets/images/logo.png" alt="<?= e($company['short']) ?>" class="h-12 w-auto">
-                <p class="mt-5 max-w-xl text-sm leading-7 text-slate-600">Established in 1996, Tatva Marketing supplies and services ultrasonic testing equipment, MPI equipment, dye penetrant chemicals and NDT accessories for industrial clients across India.</p>
+                <p class="mt-5 max-w-xl text-sm leading-7 text-slate-600">Established in 2007, Tatva Marketing supplies and services ultrasonic testing equipment, MPI equipment, dye penetrant chemicals and NDT accessories for industrial clients across India.</p>
             </div>
             <div>
                 <h3 class="text-sm font-bold uppercase tracking-wide text-slate-900">Products</h3>

@@ -21,9 +21,9 @@
          </div>
           <div class="col-md-7">
             <p><b>Details</b></p>
-            <p>The Y7 Yoke offers versatility and powerful performance in a lightweight Yoke, providing either AC or DC magnetic fields in ferro-magnetic materials.<br>
-            The Y7 Yoke’s rugged construction and high performance make it ideal for hand-held magnetic particle inspection when performance and reliability of test equipment is critical.<br>
-            The Y7 Yoke provides either a constant AC field to reveal surface defects or a pulsed DC field for revealing both surface and near surface defects.</p>
+            <p>The PY 7 Yoke offers versatility and powerful performance in a lightweight Yoke, providing either AC or DC magnetic fields in ferro-magnetic materials.<br>
+            The PY 7 Yoke’s rugged construction and high performance make it ideal for hand-held magnetic particle inspection when performance and reliability of test equipment is critical.<br>
+            The PY 7 Yoke provides either a constant AC field to reveal surface defects or a pulsed DC field for revealing both surface and near surface defects.</p>
             <p><b>Product Features:</b></p>
             <ul>
                <li>AC and DC fields</li>

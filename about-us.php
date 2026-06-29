@@ -1,12 +1,12 @@
 <?php
 require_once __DIR__ . '/includes/layout.php';
-page_header('About Us', 'Established in 1996, Tatva Marketing supplies and services NDT equipment and accessories across India.');
+page_header('About Us', 'Established in 2007, Tatva Marketing supplies and services NDT equipment and accessories across India.');
 ?>
 <section class="bg-white py-16 sm:py-20">
     <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
         <div>
             <?= section_eyebrow('Company overview') ?>
-            <h1 class="mt-4 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">A practical NDT equipment partner since 1996.</h1>
+            <h1 class="mt-4 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">A practical NDT equipment partner since 2007.</h1>
             <p class="mt-6 text-lg leading-8 text-slate-600">Tatva Marketing & Services Pvt. Ltd. is engaged in supplying and servicing ultrasonic testing equipment and accessories, MPI equipment and accessories, dye penetrant chemicals and related NDT products.</p>
             <p class="mt-4 text-base leading-7 text-slate-600">The company works with reputed principals and supports clients through product selection, logistics, servicing, calibration and training.</p>
         </div>

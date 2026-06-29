@@ -7,11 +7,13 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     letter-spacing: 0;
     background: #ffffff;
+    overflow-x: hidden;
 }
 
 main,
@@ -52,4 +54,3 @@ section.bg-slate-50,
 .hamburger::after {
     top: 6px;
 }
-

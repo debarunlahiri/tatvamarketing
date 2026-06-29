@@ -5,7 +5,7 @@ page_header('NDT Equipment, Service & Calibration', 'Tatva Marketing supplies an
 <section class="relative overflow-hidden bg-white">
     <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-20">
         <div class="flex flex-col justify-center">
-            <?= section_eyebrow('Established 1996') ?>
+            <?= section_eyebrow('Established 2007') ?>
             <h1 class="mt-5 max-w-4xl text-4xl font-extrabold leading-tight text-ink sm:text-5xl lg:text-6xl">NDT equipment supply, service and calibration without the clutter.</h1>
             <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">Tatva Marketing & Services Pvt. Ltd. supplies ultrasonic testing equipment, MPI systems, dye penetrant chemicals and accessories backed by trained service and calibration engineers.</p>
             <div class="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -14,7 +14,7 @@ page_header('NDT Equipment, Service & Calibration', 'Tatva Marketing supplies an
             </div>
             <dl class="mt-10 grid max-w-2xl grid-cols-3 gap-4 border-t border-slate-200 pt-8">
                 <div>
-                    <dt class="text-3xl font-extrabold text-ink">28+</dt>
+                    <dt class="text-3xl font-extrabold text-ink">19+</dt>
                     <dd class="mt-1 text-sm text-slate-600">Years in NDT</dd>
                 </div>
                 <div>

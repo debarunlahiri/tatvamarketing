@@ -1,14 +1,7 @@
 <?php
 require_once __DIR__ . '/includes/layout.php';
 page_header('Einstein-II DGS', 'Digital Ultrasonic Flaw Detector Einstein II DGS with DGS/AVG, AWS D1.1, TCG and Dynamic DAC curves.');
-?>
-<section class="relative bg-slate-800 py-16 sm:py-20" style="background-image: url('assets/images/banner/slider1.jpg'); background-size: cover; background-position: center;">
-    <div class="absolute inset-0 bg-slate-900/70"></div>
-    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h1 class="text-3xl font-extrabold text-white sm:text-4xl">Einstein-II DGS</h1>
-    </div>
-</section>
-<section class="bg-white py-16 sm:py-20">
+?><section class="bg-white py-16 sm:py-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="text-center">
             <h2 class="text-3xl font-extrabold text-ink sm:text-4xl">Einstein-II DGS</h2>

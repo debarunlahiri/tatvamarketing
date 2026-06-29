@@ -309,7 +309,7 @@ $(document).ready(function(){
 							<div class="footer_box__block ">
 								<h4>About Us</h4>
 								<p>
-Established in the year<b> 1996</b>, We are leading company occupied in <b>supplying</b> and <b>servicing</b> of <b>Ultrasonic Testing Equipment & Accessories, MPI Equipments & accessories, Dye Penetrant Chemicals etc.</b> These products are manufactured in advanced manufacturing units of our Principals of international repute. To name some of our reputed clients, We would like to mention <b>Indian Railways, BHEL, NPCIL, ISGEC, DCM Shriram Group, Dee Development Engineers, Star Wires, Larsen & Toubro, Ultratech Cements, Shree Cements, Good Luck Engineering, Sharu Industries</b> etc. <a href="about-us.php"> Read More...</a>
+Established in the year<b> 2007</b>, We are leading company occupied in <b>supplying</b> and <b>servicing</b> of <b>Ultrasonic Testing Equipment & Accessories, MPI Equipments & accessories, Dye Penetrant Chemicals etc.</b> These products are manufactured in advanced manufacturing units of our Principals of international repute. To name some of our reputed clients, We would like to mention <b>Indian Railways, BHEL, NPCIL, ISGEC, DCM Shriram Group, Dee Development Engineers, Star Wires, Larsen & Toubro, Ultratech Cements, Shree Cements, Good Luck Engineering, Sharu Industries</b> etc. <a href="about-us.php"> Read More...</a>
 								</p>
 								
 							</div>

@@ -31,12 +31,12 @@ function page_header(string $title, string $description = ''): void
     <link rel="stylesheet" href="assets/css/tailwind/base.css?v=20260519-css-split">
     <link rel="stylesheet" href="assets/css/tailwind/utilities.css?v=20260519-css-split">
     <link rel="stylesheet" href="assets/css/tailwind/responsive.css?v=20260519-css-split">
-    <link rel="stylesheet" href="assets/css/modern/base.css?v=20260519-css-split">
-    <link rel="stylesheet" href="assets/css/modern/components.css?v=20260601-inline-product-submenu">
-    <link rel="stylesheet" href="assets/css/modern/carousel.css?v=20260519-css-split">
-    <link rel="stylesheet" href="assets/css/modern/home.css?v=20260519-partner-logo-fix">
-    <link rel="stylesheet" href="assets/css/modern/about.css?v=20260519-css-split">
-    <link rel="stylesheet" href="assets/css/modern/services.css?v=20260519-services-redesign">
+    <link rel="stylesheet" href="assets/css/modern/base.css?v=20260629-overflow-fix">
+    <link rel="stylesheet" href="assets/css/modern/components.css?v=20260628-product-category-square">
+    <link rel="stylesheet" href="assets/css/modern/carousel.css?v=20260629-overflow-fix">
+    <link rel="stylesheet" href="assets/css/modern/home.css?v=20260628-product-line-rows">
+    <link rel="stylesheet" href="assets/css/modern/about.css?v=20260627-about-hero-full-width">
+    <link rel="stylesheet" href="assets/css/modern/services.css?v=20260627-services-hero-gradient-wide">
     <link rel="stylesheet" href="assets/css/modern/clients.css?v=20260601-simple-clients">
     <link rel="stylesheet" href="assets/css/modern/work-with-us.css?v=20260601-layout-fix">
 </head>
@@ -162,7 +162,7 @@ function page_footer(): void
                 <div>
                     <img src="assets/images/logo-footer.png" alt="<?= e($company['short']) ?>" class="h-12 w-auto">
                     <p class="mt-5 max-w-md text-sm leading-7 text-slate-300">Tatva Marketing supplies and services ultrasonic testing equipment, MPI equipment, dye penetrant chemicals and NDT accessories for industrial teams across India.</p>
-                    <p class="mt-4 text-sm text-slate-400">Established 1996</p>
+                    <p class="mt-4 text-sm text-slate-400">Established 2007</p>
                 </div>
 
                 <div>
@@ -231,7 +231,7 @@ function page_footer(): void
             </div>
         </div>
     </footer>
-    <script src="assets/js/modern.js?v=20260519-carousel-flavour"></script>
+    <script src="assets/js/modern.js?v=20260627-product-menu-no-autocollapse"></script>
 </body>
 </html>
     <?php

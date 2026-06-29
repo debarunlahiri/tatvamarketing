@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['resume'])) {
 
 $openings = [
     [
-        'title'   => 'NDT Level II Technician',
+        'title'   => 'Level II Technician',
         'dept'    => 'Inspection Services',
         'type'    => 'Full-time',
         'location'=> 'Ghaziabad / Site Deputation',
@@ -110,8 +110,8 @@ page_header('Work With Us', 'Explore career opportunities at Tatva Marketing.');
     <section class="work-stats">
         <div class="work-container work-stats__grid">
             <div class="work-stat">
-                <strong>28+</strong>
-                <span>Years in NDT</span>
+                <strong>19+</strong>
+                <span>Years in business</span>
             </div>
             <div class="work-stat">
                 <strong>6</strong>
@@ -133,19 +133,19 @@ page_header('Work With Us', 'Explore career opportunities at Tatva Marketing.');
             <div class="work-section-heading work-section-heading--center reveal">
                 <?= section_eyebrow('Why Tatva') ?>
                 <h2>Grow with a trusted name</h2>
-                <p>We invest in our people. Whether you are a field technician or a sales professional, you will work on practical projects that support India's industrial inspection teams.</p>
+                <p>We invest in our people. Whether you are a field technician or a sales professional, you will work on projects that support India's industrial inspection teams.</p>
             </div>
 
             <div class="work-benefits">
                 <article class="work-card reveal">
                     <span class="work-icon"><i class="fa fa-bolt" aria-hidden="true"></i></span>
-                    <h3>Modern NDT technology</h3>
+                    <h3>Modern inspection technology</h3>
                     <p>Work hands-on with ultrasonic flaw detectors, MPI systems and rail testing equipment from established manufacturers.</p>
                 </article>
                 <article class="work-card reveal reveal-delay-1">
                     <span class="work-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
                     <h3>Continuous learning</h3>
-                    <p>Access NDT training, certification support and workshops in UT, MT and PT methods to keep your skills sharp.</p>
+                    <p>Access training, certification support and workshops in UT, MT and PT methods to keep your skills sharp.</p>
                 </article>
                 <article class="work-card reveal reveal-delay-2">
                     <span class="work-icon"><i class="fa fa-map-o" aria-hidden="true"></i></span>

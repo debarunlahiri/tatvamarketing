@@ -261,9 +261,9 @@ $(document).ready(function(){
          </div>
           <div class="col-md-7">
             <p><b>Details</b></p>
-            <p>The Y7 Yoke offers versatility and powerful performance in a lightweight Yoke, providing either AC or DC magnetic fields in ferro-magnetic materials.<br>
-            The Y7 Yoke’s rugged construction and high performance make it ideal for hand-held magnetic particle inspection when performance and reliability of test equipment is critical.<br>
-            The Y7 Yoke provides either a constant AC field to reveal surface defects or a pulsed DC field for revealing both surface and near surface defects.</p>
+            <p>The PY 7 Yoke offers versatility and powerful performance in a lightweight Yoke, providing either AC or DC magnetic fields in ferro-magnetic materials.<br>
+            The PY 7 Yoke’s rugged construction and high performance make it ideal for hand-held magnetic particle inspection when performance and reliability of test equipment is critical.<br>
+            The PY 7 Yoke provides either a constant AC field to reveal surface defects or a pulsed DC field for revealing both surface and near surface defects.</p>
             <p><b>Product Features:</b></p>
             <ul>
                <li>AC and DC fields</li>
@@ -310,7 +310,7 @@ $(document).ready(function(){
 							<div class="footer_box__block ">
 								<h4>About Us</h4>
 								<p>
-Established in the year<b> 1996</b>, We are leading company occupied in <b>supplying</b> and <b>servicing</b> of <b>Ultrasonic Testing Equipment & Accessories, MPI Equipments & accessories, Dye Penetrant Chemicals etc.</b> These products are manufactured in advanced manufacturing units of our Principals of international repute. To name some of our reputed clients, We would like to mention <b>Indian Railways, BHEL, NPCIL, ISGEC, DCM Shriram Group, Dee Development Engineers, Star Wires, Larsen & Toubro, Ultratech Cements, Shree Cements, Good Luck Engineering, Sharu Industries</b> etc. <a href="about-us.php"> Read More...</a>
+Established in the year<b> 2007</b>, We are leading company occupied in <b>supplying</b> and <b>servicing</b> of <b>Ultrasonic Testing Equipment & Accessories, MPI Equipments & accessories, Dye Penetrant Chemicals etc.</b> These products are manufactured in advanced manufacturing units of our Principals of international repute. To name some of our reputed clients, We would like to mention <b>Indian Railways, BHEL, NPCIL, ISGEC, DCM Shriram Group, Dee Development Engineers, Star Wires, Larsen & Toubro, Ultratech Cements, Shree Cements, Good Luck Engineering, Sharu Industries</b> etc. <a href="about-us.php"> Read More...</a>
 								</p>
 								
 							</div>

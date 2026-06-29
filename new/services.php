@@ -1,13 +1,13 @@
 <?php
 require_once __DIR__ . '/includes/layout.php';
-page_header('Services', 'Servicing, AMC, recalibration, seminars, training and consultancy for UT, MT and PT NDT methods.');
+page_header('Services', 'Servicing, AMC, recalibration, seminars, training and consultancy for UT, MT and PT methods.');
 
 $serviceCards = [
     ['icon' => 'fa-stethoscope', 'label' => 'Instrument care', 'title' => 'Servicing, AMC and recalibration of ultrasonic flaw detectors', 'copy' => 'Diagnosis, preventive maintenance and calibration support for field and workshop UT instruments.'],
     ['icon' => 'fa-tachometer', 'label' => 'Measurement', 'title' => 'Servicing, AMC and recalibration of ultrasonic thickness gauges', 'copy' => 'Support for thickness gauges used in routine inspection, maintenance and material measurement workflows.'],
     ['icon' => 'fa-magnet', 'label' => 'MPI systems', 'title' => 'MPI equipment service for bench type, prod type and AC/DC yoke systems', 'copy' => 'Service support for magnetic crack detectors, yokes, power sources and shop-floor MPI systems.'],
     ['icon' => 'fa-lightbulb-o', 'label' => 'Accessories', 'title' => 'Gauss meter, residual magnetic field indicator and UV black light support', 'copy' => 'Accessory checks and support for the instruments that keep MT and PT inspection dependable.'],
-    ['icon' => 'fa-bullhorn', 'label' => 'Awareness', 'title' => 'Seminars and awareness programs in UT, MT and PT methods', 'copy' => 'Practical method awareness sessions for teams choosing or operating NDT equipment.'],
+    ['icon' => 'fa-bullhorn', 'label' => 'Awareness', 'title' => 'Seminars and awareness programs in UT, MT and PT methods', 'copy' => 'Method awareness sessions for teams choosing or operating NDT equipment.'],
 ];
 
 $processSteps = [
@@ -28,24 +28,15 @@ $coverage = [
 ?>
 
 <section class="services-hero">
-    <div class="services-hero__media" aria-hidden="true">
-        <img src="assets/images/products/modsonic/arjun-30.png" alt="">
-    </div>
     <div class="services-hero__inner">
         <div class="services-hero__copy reveal">
             <span class="services-kicker">Service · AMC · Calibration · Training</span>
-            <h1>Support that keeps NDT instruments working.</h1>
+            <h1>Support that keeps instruments working.</h1>
             <p>Tatva provides servicing, AMC, recalibration, seminars, awareness programs and method support for UT, MT and PT.</p>
             <div class="services-hero__actions">
                 <a href="contact-us.php" class="services-primary-link">Request Service</a>
                 <a href="#service-catalog" class="services-secondary-link">View Coverage</a>
             </div>
-        </div>
-
-        <div class="services-hero__panel reveal reveal-delay-2">
-            <span>Service desk</span>
-            <strong>Share the model, issue and calibration requirement.</strong>
-            <p>Tatva will respond with the practical next step for repair, AMC or recalibration.</p>
         </div>
     </div>
 </section>
@@ -75,7 +66,7 @@ $coverage = [
     <div class="services-container">
         <div class="services-section-heading reveal">
             <?= section_eyebrow('Service Coverage') ?>
-            <h2>Practical support for inspection instruments and NDT teams.</h2>
+            <h2>Support for inspection instruments and testing teams.</h2>
             <p>Choose the service area that matches your equipment or team requirement.</p>
         </div>
 

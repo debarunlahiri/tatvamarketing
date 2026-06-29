@@ -1,4 +1,41 @@
 /* ===== ABOUT PAGE ===== */
+.about-page-carousel {
+    background: #111827;
+}
+
+.about-carousel-bg {
+    background:
+        linear-gradient(90deg, rgba(17, 24, 39, 0.98), rgba(17, 24, 39, 0.92)),
+        linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+    background-size: auto, 78px 78px, 78px 78px;
+}
+
+.about-page-carousel .hero-carousel-slide::after {
+    background:
+        radial-gradient(circle at 22% 88%, rgba(81, 4, 0, 0.32), transparent 34%),
+        linear-gradient(90deg, rgba(17, 24, 39, 0.88), rgba(17, 24, 39, 0.44) 70%, rgba(17, 24, 39, 0.78));
+}
+
+.about-page-carousel .hero-chip {
+    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.04);
+    color: #e2e8f0;
+}
+
+.about-page-carousel .hero-carousel-slide > .relative > div {
+    width: 100%;
+    max-width: none;
+}
+
+.about-page-carousel h1 {
+    max-width: 100%;
+}
+
+.about-page-carousel p {
+    max-width: 100%;
+}
+
 .about-hero {
     position: relative;
     overflow: hidden;
@@ -300,7 +337,8 @@
 
 .about-capability__body p,
 .about-team-card p,
-.about-timeline__item p {
+.about-timeline__item p,
+.about-support-card p {
     margin-top: 0.8rem;
     color: #64748b;
     font-size: 0.95rem;
@@ -385,6 +423,83 @@
     font-weight: 800;
 }
 
+.about-support-panel {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.about-support-panel__heading {
+    border: 1px solid #e2e8f0;
+    border-radius: 1.1rem;
+    background: #ffffff;
+    padding: 1.45rem;
+}
+
+.about-support-panel__heading h2 {
+    margin-top: 0.75rem;
+    color: #101828;
+    font-size: clamp(1.6rem, 3vw, 2.45rem);
+    font-weight: 900;
+    line-height: 1.15;
+}
+
+.about-support-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.about-support-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    align-items: flex-start;
+    border: 1px solid #e2e8f0;
+    border-radius: 1.1rem;
+    background: #ffffff;
+    padding: 1.25rem;
+}
+
+.about-support-card > span {
+    display: inline-flex;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.85rem;
+    background: #f8e9e7;
+    color: #510400;
+    font-size: 1rem;
+}
+
+.about-support-card h3 {
+    color: #101828;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.about-buyer-checklist {
+    display: grid;
+    gap: 0.7rem;
+    border-radius: 1.1rem;
+    background: #f8fafc;
+    padding: 1rem;
+}
+
+.about-buyer-checklist span {
+    display: flex;
+    gap: 0.65rem;
+    align-items: flex-start;
+    color: #334155;
+    font-size: 0.93rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.about-buyer-checklist i {
+    margin-top: 0.2rem;
+    color: #510400;
+}
+
 .about-cta {
     padding: 0 1rem 5rem;
 }
@@ -465,4 +580,3 @@
         align-self: auto;
     }
 }
-

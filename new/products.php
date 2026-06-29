@@ -6,8 +6,8 @@ page_header('Products', 'Ultrasonic testing equipment, MPI equipment, dye penetr
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl">
             <?= section_eyebrow('Products') ?>
-            <h1 class="mt-4 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">NDT equipment range for serious inspection work.</h1>
-            <p class="mt-5 text-lg leading-8 text-slate-600">Tatva supplies ultrasonic testing instruments, rail testing systems, MPI equipment, accessories, consumables and dye penetrant products from reputed principals.</p>
+            <h1 class="mt-4 text-4xl font-extrabold leading-tight text-ink sm:text-5xl">Ultrasonic, MPI and dye penetrant testing products.</h1>
+            <p class="mt-5 text-lg leading-8 text-slate-600">A focused range of ultrasonic flaw detectors, thickness gauges, rail testers, MPI equipment, electromagnetic crack detectors, accessories, consumables and penetrant chemicals supplied through reliable vendor partnerships.</p>
         </div>
         <div class="mt-8 flex flex-wrap gap-3">
             <?php foreach ($productCategories as $category): ?>
@@ -22,13 +22,13 @@ page_header('Products', 'Ultrasonic testing equipment, MPI equipment, dye penetr
     <?php $id = strtolower(str_replace([' ', '&'], ['-', 'and'], $category['name'])); ?>
     <section id="<?= e($id) ?>" class="<?= $index % 2 === 0 ? 'bg-slate-50' : 'bg-white' ?> py-16 sm:py-20">
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="grid gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
-                <div>
-                    <h2 class="text-3xl font-extrabold text-ink"><?= e($category['name']) ?></h2>
-                    <p class="mt-4 text-base leading-7 text-slate-600"><?= e($category['summary']) ?></p>
+            <div class="product-category-band">
+                <div class="product-category-media overflow-hidden">
+                    <img src="<?= e($category['image']) ?>" alt="<?= e($category['name']) ?>" class="h-full w-full object-cover">
                 </div>
-                <div class="overflow-hidden rounded-3xl border border-slate-200 bg-slate-100 shadow-sm">
-                    <img src="<?= e($category['image']) ?>" alt="<?= e($category['name']) ?>" class="h-64 w-full object-cover">
+                <div class="product-category-copy">
+                    <h2><?= e($category['name']) ?></h2>
+                    <p><?= e($category['summary']) ?></p>
                 </div>
             </div>
             <div class="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

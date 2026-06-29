@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . '/includes/layout.php';
-page_header('NDT Equipment, Service & Calibration', 'Tatva Marketing supplies and services ultrasonic testing, MPI and dye penetrant testing equipment for industrial NDT teams.');
+page_header('NDT Equipment, Service & Calibration', 'Tatva Marketing supplies and services ultrasonic testing, MPI and dye penetrant testing equipment for industrial inspection teams.');
 
 function home_client_initials(string $name): string
 {
@@ -31,63 +31,27 @@ function home_client_initials(string $name): string
 ?>
 
 <!-- ===== HERO CAROUSEL ===== -->
-<section class="hero-carousel">
+<section class="hero-carousel home-carousel">
     <div class="hero-carousel-track h-full">
         <!-- Slide 1 -->
-        <div class="hero-carousel-slide h-full" data-slide-label="Industrial NDT" data-slide-code="01">
+        <div class="hero-carousel-slide h-full" data-slide-label="Industrial Inspection" data-slide-code="01">
             <div class="absolute inset-0">
-                <img src="assets/images/banner/slider1.jpg" alt="NDT Equipment" class="h-full w-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-slate-900/30"></div>
-            </div>
-            <div class="relative mx-auto flex h-full max-w-7xl items-center px-4 sm:px-6 lg:px-8">
-                <div class="max-w-2xl">
-                    <div class="hero-chip">Ultrasonic · MPI · PT</div>
-                    <p class="hero-title text-sm font-bold uppercase tracking-widest text-brand-light">Established 1996</p>
-                    <h1 class="hero-subtitle mt-4 text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">Precision NDT Equipment for Industrial Excellence</h1>
-                    <p class="hero-cta mt-6 text-lg leading-8 text-slate-200">Ultrasonic flaw detectors, MPI systems, and dye penetrant testing solutions backed by 28+ years of expertise.</p>
-                    <div class="hero-cta mt-8 flex flex-col gap-3 sm:flex-row">
-                        <a href="products.php" class="inline-flex justify-center rounded-full bg-brand px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-dark/30 transition hover:bg-brand-dark hover:shadow-brand-dark/40">Explore Products</a>
-                        <a href="contact-us.php" class="inline-flex justify-center rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur transition hover:bg-white/20">Contact Us</a>
-                    </div>
-                </div>
+                <img src="assets/images/banner/slider8.png" alt="NDT Equipment" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-r from-slate-900/45 via-slate-900/25 to-transparent"></div>
             </div>
         </div>
         <!-- Slide 2 -->
         <div class="hero-carousel-slide h-full" data-slide-label="Rail Inspection" data-slide-code="02">
             <div class="absolute inset-0">
-                <img src="assets/images/banner/slider2.jpg" alt="Ultrasonic Testing" class="h-full w-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-slate-900/30"></div>
-            </div>
-            <div class="relative mx-auto flex h-full max-w-7xl items-center px-4 sm:px-6 lg:px-8">
-                <div class="max-w-2xl">
-                    <div class="hero-chip">Portable · Field Ready</div>
-                    <p class="hero-title text-sm font-bold uppercase tracking-widest text-brand-light">Advanced Technology</p>
-                    <h1 class="hero-subtitle mt-4 text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">Ultrasonic Testing & Rail Inspection Systems</h1>
-                    <p class="hero-cta mt-6 text-lg leading-8 text-slate-200">From portable flaw detectors to vehicular rail testers — equipment built for field reliability.</p>
-                    <div class="hero-cta mt-8 flex flex-col gap-3 sm:flex-row">
-                        <a href="products.php" class="inline-flex justify-center rounded-full bg-brand px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-dark/30 transition hover:bg-brand-dark">View Range</a>
-                        <a href="services.php" class="inline-flex justify-center rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur transition hover:bg-white/20">Our Services</a>
-                    </div>
-                </div>
+                <img src="assets/images/banner/slider9.png" alt="Ultrasonic Testing" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-r from-slate-900/45 via-slate-900/25 to-transparent"></div>
             </div>
         </div>
         <!-- Slide 3 -->
         <div class="hero-carousel-slide h-full" data-slide-label="Full Support" data-slide-code="03">
             <div class="absolute inset-0">
-                <img src="assets/images/banner/slider3.jpg" alt="MPI Equipment" class="h-full w-full object-cover">
-                <div class="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/60 to-slate-900/30"></div>
-            </div>
-            <div class="relative mx-auto flex h-full max-w-7xl items-center px-4 sm:px-6 lg:px-8">
-                <div class="max-w-2xl">
-                    <div class="hero-chip">Equipment · Training · AMC</div>
-                    <p class="hero-title text-sm font-bold uppercase tracking-widest text-brand-light">Complete Solutions</p>
-                    <h1 class="hero-subtitle mt-4 text-4xl font-extrabold leading-tight text-white sm:text-5xl lg:text-6xl">MPI, Dye Penetrant & Full NDT Support</h1>
-                    <p class="hero-cta mt-6 text-lg leading-8 text-slate-200">Equipment, consumables, training, and AMC — everything your inspection team needs.</p>
-                    <div class="hero-cta mt-8 flex flex-col gap-3 sm:flex-row">
-                        <a href="contact-us.php" class="inline-flex justify-center rounded-full bg-brand px-7 py-3.5 text-sm font-bold text-white shadow-lg shadow-brand-dark/30 transition hover:bg-brand-dark">Get In Touch</a>
-                        <a href="clients.php" class="inline-flex justify-center rounded-full border border-white/30 bg-white/10 px-7 py-3.5 text-sm font-bold text-white backdrop-blur transition hover:bg-white/20">Our Clients</a>
-                    </div>
-                </div>
+                <img src="assets/images/banner/slider10.png" alt="MPI Equipment" class="h-full w-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-r from-slate-900/45 via-slate-900/25 to-transparent"></div>
             </div>
         </div>
     </div>
@@ -100,17 +64,6 @@ function home_client_initials(string $name): string
         <svg class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
     </button>
 
-    <div class="hero-carousel-status" aria-hidden="true">
-        <span class="hero-carousel-current">01</span>
-        <span class="hero-carousel-rule"></span>
-        <span class="hero-carousel-label">Industrial NDT</span>
-    </div>
-    <div class="hero-carousel-progress" aria-hidden="true">
-        <span></span>
-    </div>
-
-    <!-- Dots -->
-    <div class="hero-carousel-dots absolute bottom-6 left-0 right-0 z-20"></div>
 </section>
 
 <!-- ===== STATS BAR ===== -->
@@ -123,9 +76,9 @@ function home_client_initials(string $name): string
                 </div>
                 <div>
                     <div class="text-4xl font-extrabold text-ink">
-                        <span data-counter="28" data-suffix="+" data-duration="2000">28+</span>
+                        <span data-counter="19" data-suffix="+" data-duration="2000">19+</span>
                     </div>
-                    <p class="mt-1 text-sm font-semibold text-slate-600">Years in NDT</p>
+                    <p class="mt-1 text-sm font-semibold text-slate-600">Years in business</p>
                 </div>
             </div>
             <div class="stats-card reveal reveal-delay-1">
@@ -158,7 +111,7 @@ function home_client_initials(string $name): string
                     <div class="text-4xl font-extrabold text-ink">
                         <span data-counter="3" data-suffix="" data-duration="1500">3</span>
                     </div>
-                    <p class="mt-1 text-sm font-semibold text-slate-600">NDT Methods</p>
+                    <p class="mt-1 text-sm font-semibold text-slate-600">Inspection methods</p>
                 </div>
             </div>
         </div>
@@ -173,44 +126,26 @@ function home_client_initials(string $name): string
                 <?= section_eyebrow('Product Lines') ?>
                 <h2 class="mt-4 text-3xl font-extrabold leading-tight text-ink sm:text-4xl lg:text-5xl">NDT equipment for inspection, workshop testing and surface crack detection.</h2>
             </div>
-            <p class="max-w-md text-base leading-7 text-slate-600">Explore practical instruments, MPI systems and penetrant testing materials selected for industrial inspection workflows.</p>
+            <p class="max-w-md text-base leading-7 text-slate-600">Explore instruments, MPI systems and penetrant testing materials selected for industrial inspection workflows.</p>
         </div>
 
-        <div class="mt-12 grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
+        <div class="product-lines-grid mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <?php foreach ($productCategories as $index => $category): ?>
-                <?php if ($index === 0): ?>
-                    <a href="products.php" class="product-feature-card reveal group relative min-h-[460px] overflow-hidden rounded-3xl bg-ink text-white shadow-xl">
-                        <img src="<?= e($category['image']) ?>" alt="<?= e($category['name']) ?>" class="absolute inset-0 h-full w-full object-cover transition duration-700 group-hover:scale-105">
-                        <div class="absolute inset-0 bg-gradient-to-t from-ink via-ink/55 to-transparent"></div>
-                        <div class="relative flex h-full min-h-[460px] flex-col justify-end p-7 sm:p-9">
-                            <span class="inline-flex w-fit rounded-full bg-white/10 px-4 py-2 text-xs font-bold uppercase tracking-wide text-brand-light backdrop-blur">Primary range</span>
-                            <h3 class="mt-5 text-3xl font-extrabold leading-tight sm:text-4xl"><?= e($category['name']) ?></h3>
-                            <p class="mt-4 max-w-xl text-base leading-7 text-slate-200"><?= e($category['summary']) ?></p>
-                            <span class="mt-7 inline-flex w-fit items-center rounded-full bg-brand px-5 py-3 text-sm font-bold text-white transition group-hover:bg-brand-dark">
-                                Explore range
-                                <svg class="ml-2 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-                            </span>
-                        </div>
-                    </a>
-                    <div class="grid gap-6">
-                <?php else: ?>
-                    <a href="products.php" class="product-line-card reveal reveal-delay-<?= $index ?> group grid overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition sm:grid-cols-[0.92fr_1.08fr]">
-                        <div class="min-h-56 overflow-hidden bg-slate-100">
-                            <img src="<?= e($category['image']) ?>" alt="<?= e($category['name']) ?>" class="h-full w-full object-cover transition duration-500 group-hover:scale-105">
-                        </div>
-                        <div class="flex flex-col justify-center p-6">
-                            <span class="text-xs font-bold uppercase tracking-wide text-brand">Product line</span>
-                            <h3 class="mt-3 text-2xl font-extrabold leading-tight text-ink"><?= e($category['name']) ?></h3>
-                            <p class="mt-3 text-sm leading-7 text-slate-600"><?= e($category['summary']) ?></p>
-                            <span class="mt-5 inline-flex items-center text-sm font-bold text-brand transition group-hover:translate-x-1">
-                                Explore range
-                                <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
-                            </span>
-                        </div>
-                    </a>
-                <?php endif; ?>
+                <a href="products.php" class="product-line-card reveal reveal-delay-<?= $index ?> group overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm transition">
+                    <div class="product-line-card__media overflow-hidden bg-slate-100">
+                        <img src="<?= e($category['image']) ?>" alt="<?= e($category['name']) ?>" class="h-full w-full transition duration-500 group-hover:scale-105">
+                    </div>
+                    <div class="product-line-card__body">
+                        <span class="text-xs font-bold uppercase tracking-wide text-brand">Product line</span>
+                        <h3 class="mt-3 text-2xl font-extrabold leading-tight text-ink"><?= e($category['name']) ?></h3>
+                        <p class="mt-3 text-sm leading-7 text-slate-600"><?= e($category['summary']) ?></p>
+                        <span class="mt-auto inline-flex items-center pt-5 text-sm font-bold text-brand transition group-hover:translate-x-1">
+                            Explore range
+                            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                        </span>
+                    </div>
+                </a>
             <?php endforeach; ?>
-            </div>
         </div>
     </div>
 </section>
@@ -235,7 +170,7 @@ function home_client_initials(string $name): string
             ['name' => 'Einstein-II TFT', 'desc' => 'Digital ultrasonic flaw detector with colour display & PC connectivity.', 'img' => 'gifs/flaw-detector.jpg', 'link' => 'einstein-ii.php', 'tag' => 'Ultrasonic flaw detector'],
             ['name' => 'Arjun-20', 'desc' => 'Palmtop flaw detector with 10m test range & DGS/AVG software.', 'img' => 'assets/images/products/modsonic/arjun-20.jpg', 'link' => 'arjun-20.php', 'tag' => 'Portable UT'],
             ['name' => 'Edison-1M', 'desc' => 'Ultrasonic thickness gauge with 2000-reading memory & PC link.', 'img' => 'assets/images/products/modsonic/edison-1m.png', 'link' => 'ultra-thickness.php', 'tag' => 'Thickness gauge'],
-            ['name' => 'Y7 Yoke', 'desc' => 'Lightweight AC/DC electromagnetic yoke for MPI inspection.', 'img' => 'gifs/electromagnetic-Particls-Equipment.jpg', 'link' => 'yoke-mpi.php', 'tag' => 'MPI yoke'],
+            ['name' => 'PY 7 Yoke', 'desc' => 'Lightweight AC/DC electromagnetic yoke for MPI inspection.', 'img' => 'gifs/electromagnetic-Particls-Equipment.jpg', 'link' => 'yoke-mpi.php', 'tag' => 'MPI yoke'],
         ];
         $lead = $featured[0];
         ?>
@@ -283,7 +218,7 @@ function home_client_initials(string $name): string
                 <p class="text-sm font-bold uppercase tracking-widest text-brand-light">Service Capability</p>
                 <div>
                     <h2 class="text-3xl font-extrabold leading-tight sm:text-4xl lg:text-5xl">Support that keeps instruments working.</h2>
-                    <p class="mt-5 text-base leading-8 text-slate-300">Tatva supports supplied equipment through servicing, AMC, recalibration, user training and NDT method consultancy.</p>
+                    <p class="mt-5 text-base leading-8 text-slate-300">Tatva supports supplied equipment through servicing, AMC, recalibration, user training and method consultancy.</p>
                 </div>
                 <div class="mt-8 flex flex-wrap gap-4">
                     <a href="services.php" class="inline-flex items-center rounded-full bg-brand px-6 py-3 text-sm font-bold text-white transition hover:bg-brand-dark">View Services</a>
@@ -343,7 +278,7 @@ function home_client_initials(string $name): string
                     <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
                 </div>
                 <h3 class="mt-5 text-xl font-bold text-ink">Training & Certification</h3>
-                <p class="mt-3 text-sm leading-6 text-slate-600">NDT awareness programs and Level-I/II training in UT, MT and PT methods. Build capable inspection teams.</p>
+                <p class="mt-3 text-sm leading-6 text-slate-600">Awareness programs and Level-I/II training in UT, MT and PT methods. Build capable inspection teams.</p>
             </div>
         </div>
     </div>
@@ -355,8 +290,7 @@ function home_client_initials(string $name): string
         <div class="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
             <div class="max-w-3xl">
                 <?= section_eyebrow('Trusted Partners') ?>
-                <h2 class="mt-4 text-3xl font-extrabold leading-tight text-ink sm:text-4xl">Industrial teams that trust Tatva.</h2>
-                <p class="mt-5 text-base leading-7 text-slate-600">Public sector, rail, fabrication, cement and inspection companies rely on Tatva for practical NDT equipment support.</p>
+                <h2 class="mt-4 text-3xl font-extrabold leading-tight text-ink sm:text-4xl">Public sector, rail, fabrication, cement and inspection companies rely on Tatva for NDT equipment support.</h2>
             </div>
             <a href="clients.php" class="inline-flex w-fit rounded-full border border-brand/20 bg-white px-5 py-2.5 text-sm font-bold text-brand shadow-sm transition hover:border-brand hover:bg-brand hover:text-white">View all clients</a>
         </div>
@@ -388,8 +322,7 @@ function home_client_initials(string $name): string
 <!-- ===== CTA BANNER ===== -->
 <section class="cta-section bg-brand py-20 sm:py-24">
     <div class="relative mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">Ready to upgrade your NDT capability?</h2>
-        <p class="mx-auto mt-5 max-w-2xl text-lg leading-8 text-brand-light">Talk to our team about equipment selection, service contracts, or training programs tailored to your inspection needs.</p>
+        <h2 class="text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl">Talk to our team about equipment selection, service contracts, or training programs tailored to your inspection needs.</h2>
         <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a href="contact-us.php" class="inline-flex items-center justify-center rounded-full bg-white px-8 py-4 text-base font-bold text-brand shadow-lg transition hover:bg-slate-100">Request a Quote</a>
             <a href="tel:+911204116638" class="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 px-8 py-4 text-base font-bold text-white backdrop-blur transition hover:bg-white/20">Call 0120 411 6638</a>
@@ -398,3 +331,4 @@ function home_client_initials(string $name): string
 </section>
 
 <?php page_footer(); ?>
+

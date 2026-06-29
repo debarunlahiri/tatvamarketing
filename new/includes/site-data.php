@@ -70,7 +70,7 @@ $productCategories = [
     [
         'name' => 'Ultrasonic Testing',
         'summary' => 'Flaw detectors, rail testers, thickness gauges, velocity meters, probes and accessories for industrial inspection.',
-        'image' => 'gifs/ultrasonic-equipment.jpg',
+        'image' => 'assets/images/products/main_product1.png',
         'items' => [
             [
                 'name' => 'Einstein-II TFT',
@@ -119,7 +119,7 @@ $productCategories = [
     [
         'name' => 'Magnetic Particle Testing',
         'summary' => 'MPI equipment, yokes, prod units, UV lights, accessories and consumables for surface defect detection.',
-        'image' => 'gifs/MPI-Portable-Power-Source1.jpg',
+        'image' => 'assets/images/products/main_product2.png',
         'items' => [
             [
                 'name' => 'Bench Type MPI Equipment',
@@ -156,7 +156,7 @@ $productCategories = [
     [
         'name' => 'Dye Penetrant Testing',
         'summary' => 'Visible and fluorescent penetrant materials for surface crack detection.',
-        'image' => 'gifs/dye-penetrant-chemicals.jpg',
+        'image' => 'assets/images/products/main_product3.png',
         'items' => [
             [
                 'name' => 'Dye Penetrant Chemicals',

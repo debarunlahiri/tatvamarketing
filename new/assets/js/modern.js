@@ -21,6 +21,60 @@ if (menuButton && mobileMenu) {
     });
 }
 
+/* ===== DESKTOP PRODUCT MENU ===== */
+(function initDesktopProductMenu() {
+    const productMenu = document.querySelector('.nav-product');
+    if (!productMenu) return;
+    const rootItems = Array.from(productMenu.querySelectorAll(':scope > .nav-menu > .nav-item'));
+    const nestedItems = Array.from(productMenu.querySelectorAll('.nav-submenu .nav-item'));
+
+    function openMenu() {
+        productMenu.classList.add('is-open');
+        if (!rootItems.some((item) => item.classList.contains('is-active')) && rootItems[0]) {
+            rootItems[0].classList.add('is-active');
+        }
+    }
+
+    function closeMenu() {
+        productMenu.classList.remove('is-open');
+        rootItems.forEach((item) => item.classList.remove('is-active'));
+        nestedItems.forEach((item) => item.classList.remove('is-active'));
+    }
+
+    function activateItem(item) {
+        item.classList.add('is-active');
+    }
+
+    productMenu.addEventListener('mouseenter', openMenu);
+    productMenu.addEventListener('focusin', openMenu);
+
+    rootItems.forEach((item) => {
+        item.addEventListener('mouseenter', () => activateItem(item));
+        item.addEventListener('focusin', () => activateItem(item));
+    });
+
+    nestedItems.forEach((item) => {
+        item.addEventListener('mouseenter', () => activateItem(item));
+        item.addEventListener('focusin', () => activateItem(item));
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!productMenu.contains(event.target)) {
+            closeMenu();
+        }
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') {
+            closeMenu();
+        }
+    });
+
+    document.querySelectorAll('nav[aria-label="Primary navigation"] > a').forEach((link) => {
+        link.addEventListener('mouseenter', closeMenu);
+    });
+})();
+
 /* ===== HERO CAROUSEL ===== */
 (function initCarousel() {
     const track = document.querySelector('.hero-carousel-track');
